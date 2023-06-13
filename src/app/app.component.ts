@@ -12,7 +12,7 @@ export class AppComponent {
     firstName: new FormControl(''),
     lastName: new FormControl(''),
     age: new FormControl(18),
-    subscription: new FormControl(true),
+    subscribe: new FormControl(true),
   });
 
   public formUpdate$ = this.form.valueChanges.pipe(
